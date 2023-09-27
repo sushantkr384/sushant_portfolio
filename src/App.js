@@ -1,12 +1,12 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Aos from "aos";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/UI/Hero";
 import Services from "./components/UI/Services";
 import Portfolio from "./components/UI/Portfolio";
-import Contacts from "./components/UI/Contacts";
+import Contact from "./components/UI/Contact";
 
 function App() {
   useEffect(() => {
@@ -19,7 +19,7 @@ function App() {
         <Hero />
         <Services />
         <Portfolio />
-        <Contacts />
+        <Contact />
       </main>
       <Footer />
     </>

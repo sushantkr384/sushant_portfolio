@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contacts = () => {
+const Contact = () => {
   return (
     <section id="contacts" className="pb-16">
       <div className="container">
@@ -10,6 +10,7 @@ const Contacts = () => {
         <div className="md:flex justify-between items-center">
           <div className=" w-full md:w-1/2 h-[300px] sm:h-[450px]">
             <iframe
+              title="Description of the iframe"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14393.
                 509770240189!2d85.13363841337821!3d25.592371212279858!2m3!1f0!2f0!3f0!3m2!
                 1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5884484c81cb%3A0xfae38a8a97ed5467!
@@ -75,4 +76,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Contact;

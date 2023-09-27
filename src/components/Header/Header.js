@@ -1,4 +1,4 @@
-import react, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 const Header = () => {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
@@ -22,7 +22,7 @@ const Header = () => {
   const toggleMenu = () => menuRef.current.classList.toggle("show_menu");
 
   return (
-    <headers
+    <header
       ref={headerRef}
       className="w-full h-[80px] leading-[80px] flex items-center"
     >
@@ -47,8 +47,9 @@ const Header = () => {
           <div className="menu" ref={menuRef} onClick={toggleMenu}>
             <ul className="flex items-center gap-10">
               <li>
-                <a className="text-stone-600 font-[600]" href="about"></a>
-                About
+                <a className="text-stone-600 font-[600]" href="#about">
+                  About
+                </a>
               </li>
               <li>
                 <a className="text-stone-600 font-[600]" href="#services">
@@ -90,7 +91,7 @@ const Header = () => {
           {/* menu left side */}
         </div>
       </div>
-    </headers>
+    </header>
   );
 };
 export default Header;

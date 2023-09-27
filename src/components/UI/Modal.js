@@ -2,7 +2,7 @@ import React from "react";
 import Portfolios from "../../assets/data/portfolioData";
 
 const Modal = ({ activeID, setShoeModal }) => {
-  const portfolio = Portfolios.find((portfolio) => portfolio.id == activeID);
+  const portfolio = Portfolios.find((portfolio) => portfolio.id === activeID);
   return (
     <div className="w-full h-full fixed top-0 left-0 z-10 bg-black bg-opacity-40">
       <div className="md:max-w-[600px]  absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform-translate-x-1/2 -translate-y-1/2 p-5">
