@@ -1,4 +1,5 @@
 import { useRef, useEffect } from "react";
+
 const Header = () => {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
@@ -77,14 +78,14 @@ const Header = () => {
               className="flex items-center gap-2 text-stone-400 font-[600] border border-solid border-black py-2 px-4 rounded-md max-h-[40px]
               bg-zinc-700 hover:text-white , hover:font-[500] ease-in duration-300"
             >
-              <i class="ri-send-plane-fill"></i>
+              <i className="ri-send-plane-fill"></i>
               let's talk
             </button>
             <span
               onClick={toggleMenu}
               className="text-2xl text-stone-600 md:hidden cursor-pointer"
             >
-              <i class="ri-menu-3-fill"></i>
+              <i className="ri-menu-3-fill" />
             </span>
           </div>
           {/* menu right Side end*/}

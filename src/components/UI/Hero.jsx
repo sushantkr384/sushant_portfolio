@@ -4,7 +4,7 @@ import sushant from "../../assets/images/sushant.jpg";
 const Hero = () => {
   return (
     <section className="pt-0" id="about">
-      <div className="container" pt-14>
+      <div className="container pt-14">
         <div className="md:flex items-center justify-between sm:flex-col md:flex-row">
           {/* =========hero left container============== */}
           <div className="w-full md:basis-1/2">
@@ -33,7 +33,7 @@ const Hero = () => {
                   className="bg-blue-500 text-white font-[500] flex items-center gap-2
                    hover:bg-blue-800 ease-in duration-300 py-2 px-4 rounded-md"
                 >
-                  <i class="ri-mail-line"></i> Hire Me
+                  <i className="ri-mail-line"></i> Hire Me
                 </button>
               </a>
               <a
@@ -49,7 +49,7 @@ const Hero = () => {
               className="flex gap-2 text-blue-500 mt-14 font-[500] text-[18px] leading-7 sm:pl-14 sm:pr-10"
             >
               <span>
-                <i class="ri-apps-2-line"></i>
+                <i className="ri-apps-2-line"></i>
               </span>
               My name is sushant kumar and i have two years of experience in
               front-end web developement .i can deliver a very beautifull and
@@ -64,13 +64,13 @@ const Hero = () => {
                   href="https://x.com/Sushant34010369?t=LclZ1fZe9m_kc-rFmXkZDQ&s=09"
                   className="text-blue-500 text-[21px] font-[600]"
                 >
-                  <i class="ri-twitter-x-line"></i>
+                  <i className="ri-twitter-x-line"></i>
                 </a>
                 <a href="#" className="text-blue-500 text-[21px] font-[600]">
-                  <i class="ri-facebook-box-fill"></i>
+                  <i className="ri-facebook-box-fill"></i>
                 </a>
                 <a href="#" className="text-blue-500 text-[21px] font-[600]">
-                  <i class="ri-github-fill"></i>
+                  <i className="ri-github-fill"></i>
                 </a>
               </span>
             </div>

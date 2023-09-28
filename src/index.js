@@ -5,5 +5,4 @@ import App from "./App";
 import "aos/dist/aos.css";
 import "remixicon/fonts/remixicon.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

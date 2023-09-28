@@ -39,7 +39,7 @@ const Modal = ({ activeID, setShoeModal }) => {
 
           <a href="{portfolio.siteUrl}">
             <button
-              class="bg-blue-500 text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-green-900 ease-in
+              className="bg-blue-500 text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-green-900 ease-in
               duration-300"
             >
               Live site
